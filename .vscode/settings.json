@@ -1,0 +1,11 @@
+{
+    "liveServer.settings.port": 5501,
+    "editor.codeLensFontSize": 15,
+    "editor.inlayHints.fontSize": 15,
+    "editor.minimap.sectionHeaderFontSize": 15,
+    "editor.suggestFontSize": 12,
+    "screencastMode.fontSize": 20,
+    "notebook.markup.fontSize": 12,
+    "notebook.output.fontSize": 12,
+    "editor.fontSize": 12
+}
