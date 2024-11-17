@@ -6,6 +6,20 @@
     margin: 0;
     padding: 0;
 }
+.imageContact {
+    width: 100%;  /* Make the container take the full width */
+    height: 100vh;  /* Make the container take the full height of the page */
+    overflow: hidden;  /* Hide anything that overflows */
+}
+.imageContact img {
+    width: 100%;  /* Make the container take the full width */
+    height: 100vh; 
+     /* Make the image height fill the viewport height */
+}
+section{
+    height: 20%;
+}
+
 
 /* Body styling */
 body {
