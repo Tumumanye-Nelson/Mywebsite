@@ -1,0 +1,112 @@
+/* Navbar Styles */
+nav {
+    background-color: #333; /* Dark background for the navbar */
+    position: fixed; /* Sticks the navbar at the top */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds shadow for depth */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center; /* Center-aligns the navigation items */
+    padding: 10px 0;
+    margin: 0; /* Removes default margin */
+    list-style: none; /* Removes default list styling */
+}
+
+nav ul li {
+    margin: 0 15px; /* Adds spacing between navigation items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color */
+    font-size: 16px;
+    padding: 8px 15px;
+    text-decoration: none; /* Removes underline */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+nav ul li a:hover, 
+nav ul li a.active {
+    background-color: #ff5733; /* Highlight color for active/hover state */
+    color: #fff; /* White text */
+    border-radius: 5px; /* Rounded edges for hover effect */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stacks items vertically */
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Increases spacing for vertical layout */
+    }
+
+    nav ul li a {
+        font-size: 18px; /* Slightly larger text for better readability */
+    }
+}
+
+/* Body Content Adjustment */
+body {
+    color: white;
+    background-image: url(/img/pexels-alina-kurson-80193566-10554311.jpg) ;
+    position: relative;
+    padding-top: 60px; /* Adjust based on navbar height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.sec{
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+  border:none;
+  color: gold;
+}
+
+div .button3{
+    position: relative;
+    color:#ff5733;
+    text-align: center;
+    
+    
+}
+.explore{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+section, div, .button3{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    bottom: 10px;
+}
+
+.footer{
+color:red;
+position: relative;
+top: 57vh;
+color:green;
+border: 3px solid;
+border-color:purple;
+
+
+}
+div .immm{
+    position: relative;
+    top: -50px;
+    background-color: white;
+    border: gold;
+    border-radius: 25px;
+}
