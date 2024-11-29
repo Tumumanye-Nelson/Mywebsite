@@ -110,3 +110,42 @@ div .immm{
     border: gold;
     border-radius: 25px;
 }
+.sev{
+    position: relative;
+    top: -30px;
+    padding: 5px;
+    margin: 5px;
+}
+.sev1{
+    text-align: center;
+    text-decoration: solid;
+    text-transform: uppercase;
+    color:chartreuse;
+   
+
+}
+.body{
+    position: relative;
+    top: -50px;
+    bottom: 45px;
+    padding: 0px;
+    margin: 0px;
+    border: none ;
+  
+}
+.body h2{
+    color: #ff5733;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+h2 ,.i {
+
+    position: relative;
+    margin: 0px;
+    padding:0px;  
+    font-style:italic;
+    color:white;
+}
