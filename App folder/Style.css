@@ -54,8 +54,7 @@ nav ul li a.active {
 /* Body Content Adjustment */
 body {
     color: white;
-    background-image: url(/img/pexels-alina-kurson-80193566-10554311.jpg) ;
-    position: relative;
+background-color: darkgray;
     padding-top: 60px; /* Adjust based on navbar height */
     margin: 0;
     font-family: Arial, sans-serif;
@@ -83,8 +82,14 @@ div .button3{
     font-size: 2em;
     margin: 0px;
     padding: 0px;
+   
 
 
+}
+.explore p{
+    margin-top: 40px;
+    font-size: 24px;
+    
 }
 section, div, .button3{
     text-align: center;
@@ -99,16 +104,23 @@ position: relative;
 top: 57vh;
 color:green;
 border: 3px solid;
-border-color:purple;
+border-color:white;
 
 
+}
+.footer marquee{
+    background-color: white;
 }
 div .immm{
     position: relative;
     top: -50px;
     background-color: white;
-    border: gold;
+    border: blue;
     border-radius: 25px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-style: italic;
+    padding: 50px;
 }
 .sev{
     position: relative;
